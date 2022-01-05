@@ -5,6 +5,6 @@ The dataset is historical sales data for 45 stores located in different regions 
 
 The dataset consist of three excel sheets namely Stores, Features and Sales. Stores data indicate type and size of the store. Features table contains additional data about store, department, regional activites (Markdown, Fuel_price, Temperature), IsHoliday, Unemployment and CPI. While the Sales data contains the Weekly_Sales information by store, department and IsHoliday.
 
-After EDA and correlation analysis, we found that Holiday affects the sales and also Markwon acitivities for different sotre during specific time. In this project, Holt Winters exponential smoothing forecasting technique was applied as in the dataset both trend and seasonality over the date was observed. The modle accuacy is quite satisfacotry as Mean Absolute Percentage Error was only 5.2 %. The graph below shows the prediction of sales for the year 2013.
+After EDA and correlation analysis, we found that Holiday affects the sales and also Markwon acitivities for different sotre during specific time. In this project, Holt Winters exponential smoothing forecasting technique was applied as both trend and seasonality over the time was observed. The model accuacy was quite satisfacotry as Mean Absolute Percentage Error was only 5.2 %. The graph below shows the prediction of sales for the year 2013.
 
 ![Sales_prediction_2013](https://user-images.githubusercontent.com/36482524/148239758-ddc2acf9-2ae3-4c32-84dd-af7109ca6eaa.png)
