@@ -7,3 +7,4 @@ The dataset consist of three excel sheets namely Stores, Features and Sales. Sto
 
 After EDA and correlation analysis, we found that Holiday affects the sales and also Markwon acitivities for different sotre during specific time. In this project, Holt Winters exponential smoothing forecasting technique was applied as in the dataset both trend and seasonality over the date was observed. The modle accuacy is quite satisfacotry as Mean Absolute Percentage Error was only 5.2 %. The graph below shows the prediction of sales for the year 2013.
 
+![Sales_prediction_2013](https://user-images.githubusercontent.com/36482524/148239758-ddc2acf9-2ae3-4c32-84dd-af7109ca6eaa.png)
